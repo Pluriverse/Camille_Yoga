@@ -1,0 +1,370 @@
+﻿body {
+    margin: 0px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+@font-face {
+    font-family: 'GemunuLibreExtraBold';
+    src: url(gemunulibre/gemunu-libre.extrabold.woff) format('woff');
+}
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Zen+Kaku+Gothic+Antique&family=Zen+Kaku+Gothic+New:wght@400;500&display=swap');
+
+
+p {
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-size: 20px;
+    font-weight: 400px;
+}
+
+
+h2 {
+    font-family: "Anton", sans-serif;
+    font-size: 40px;
+    font-weight: 400px;
+    text-align: center;
+    padding:70px 0px 20px;
+    color:black;
+
+}
+
+h3 {
+    font-size: 24px;
+    color: white;
+    font-family: 'GemunuLibreExtraBold', sans-serif;
+}
+
+.button1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    color: white;
+    width: 150px;
+    border: 3px solid #506B71;
+    border-radius: 20px;
+    padding: 7px 10px;
+    background-color: #506B71;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.3s;
+}
+
+
+    .button1:hover {
+        background-color: #CFDCD2;
+        color: black;
+        
+
+    }
+
+
+
+/* --------------------------INDEX NAV----------------------------------------------*/
+
+
+
+.bg-img {
+    background-image: url("images/cam1.jpeg");
+    box-shadow: inset 0 0 99999px rgba(161, 192, 129, 0.5);
+    height: 1050px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.nav-wrapperhome {
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px 0px 0px 30px;
+}
+
+
+.camille-folleyhome {
+    font-weight: 700;
+    overflow: visible;
+    width: 500px;
+    font-size: 90px;
+    line-height: 70px;
+    letter-spacing: 8px;
+    font-family: 'GemunuLibreExtraBold', sans-serif;
+    color: #344453;
+}
+.yoga-studiohome {
+    font-weight: 700;
+    margin: 0px 0px 0px 30px;
+    padding-top: 150px;
+    font-size: 90px;
+    line-height: 70px;
+    letter-spacing: 8px;
+    font-family: 'GemunuLibreExtraBold', sans-serif;
+    color: navajowhite;
+}
+
+.topnavhome-right {
+    position: relative;
+    text-align: right;
+}
+
+
+    .topnavhome-right a {
+        margin: 0px 20px 0px 70px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 30px;
+        text-decoration: none;
+        color: navajowhite;
+        border-bottom: transparent;
+        transition: 0.5s;
+    }
+
+        .topnavhome-right a:hover {
+            color: #cc6600;
+            border-bottom: 2px solid #cc6600;
+        }
+
+.activenav {
+    color: #cc6600 !important;
+}
+
+
+/* --------------------------PAGES NAV----------------------------------------------*/
+
+
+
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0px;
+    background-color: #CFDCD2;
+}
+
+.topnav-left {
+    font-weight: 700;
+    width: 500px;
+    padding-left: 30px;
+    text-align: justify;
+    font-size: 20px;
+    line-height: 2px;
+    letter-spacing: 5px;
+    color: #344453;
+}
+
+
+.yogaheader {
+    color: #6E7B88;
+    letter-spacing: 8.56px;
+}
+
+.topnav-right {
+    display: flex;
+    position: relative;
+    list-style-type: none;
+}
+
+    .topnav-right a {
+        display: inline-block;
+        margin: 8px 30px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 20px;
+        font-style: italic;
+        text-decoration: none;
+        color: #6E7B88;
+        border-bottom: transparent;
+        transition: 0.5s;
+    }
+
+        .topnav-right a:hover {
+            color: #cc6600;
+            border-bottom: 2px solid #cc6600;
+        }
+
+.activenav {
+    color: #cc6600 !important;
+}
+
+
+
+
+/* --------------------------INDEX----------------------------------------------*/
+
+.intro {
+    width: 100%;
+    height: 800px;
+    margin: 0px;
+    display: inline-block;
+    background-color: #CFDCD2;
+    text-align: center;
+
+}
+
+
+.FOUNDER {
+    background-color: lightpink;
+    display:inline-block;
+    width: 100%;
+}
+
+.camillephoto {
+    margin:60px 40px 60px 160px;
+    max-height: 400px;
+    width: auto;
+    float: left;
+}
+
+.quote1-1 {
+    text-align: center;
+    font-size: 25px;
+}
+
+.quote1-2 {
+    text-align: center;
+    padding-left: 30px;
+    font-size: 30px;
+    
+}
+
+
+/* --------------------------CLASSES----------------------------------------------*/
+
+
+.bodee {
+    padding: 200px 100px;
+    justify-content: space-between;
+    background-color: lightpink;
+}
+
+    .bodee p {
+        font-family: 'Poppins', sans-serif;
+        padding: 0px 80px;
+    }
+
+.classheader h1{
+        position: relative;
+        font-family: 'Poppins', sans-serif;
+        font-size: 80px;
+        color: black;
+        padding: 0px 80px;
+    }
+
+.classes {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: lightpink;
+}
+
+.yogaclass {
+    display: inline-block;
+    position: relative;
+}
+
+
+.yogaclass a {
+    position: absolute;
+    top: 45%;
+    left: 33%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    width: 150px;
+    border: 3px solid #506B71;
+    border-radius: 20px;
+    padding: 7px 10px;
+    background-color: #506B71;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.3s;
+}
+
+
+    .yogaclass a:hover {
+        background-color: #CFDCD2;
+        border: 3px solid #CFDCD2;
+        color: black;
+    }
+
+.barreclass {
+    display: inline-block;
+    position: relative;
+}
+
+.barreclass a {
+    position: absolute;
+    top: 45%;
+    left: 33%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    width: 150px;
+    border: 3px solid #506B71;
+    border-radius: 20px;
+    padding: 7px 10px;
+    background-color: #506B71;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.3s;
+}
+
+
+    .barreclass a:hover {
+        background-color: #CFDCD2;
+        border: 3px solid #CFDCD2;
+        color: black;
+    }
+
+
+
+
+
+    /* --------------------------CONTACT----------------------------------------------*/
+
+    .hitmeup {
+        margin: auto;
+        width: 100%;
+        position: relative;
+        display: inline-block;
+        padding-top: 20px;
+        background-color: #526E74;
+        height: 305px;
+        text-align: center;
+        font-family: gemunuLibre, sans-serif;
+        color: #F1F1F1;
+        font-size: 56px;
+    }
+    
+    .top-boxes{
+        display: flex;
+    }
+    
+    iframe {
+        width: 33%;
+        aspect-ratio: 1/1;
+    }
+    .Contact-info {
+        background-color: #F1F1F1;
+        width: 34%;
+        aspect-ratio: 1/1;
+        text-align: center;
+        line-height: 200px;
+    
+    }
+    
+    .Socials {
+        background-color: #EFADAD;
+        width: 33%;
+        aspect-ratio: 1/1;
+    }
+    
+    .membership {
+        display: flex;
+    }
+
+
+
+    /* --------------------------ABOUT----------------------------------------------*/

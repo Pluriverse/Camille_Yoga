@@ -4,6 +4,7 @@
 
 * {
     box-sizing: border-box;
+    margin: 0px;
 }
 
 
@@ -34,6 +35,12 @@ h2 {
 h3 {
     font-size: 24px;
     color: white;
+    font-family: 'GemunuLibreExtraBold', sans-serif;
+}
+
+h4 {
+    font-size: 30px;
+    color: rgb(0, 0, 0);
     font-family: 'GemunuLibreExtraBold', sans-serif;
 }
 
@@ -137,9 +144,9 @@ h3 {
 .nav-wrapper {
     display: flex;
     justify-content: space-between;
-    position: sticky;
     top: 0px;
     background-color: #CFDCD2;
+    height: 70px;
 }
 
 .topnav-left {
@@ -148,7 +155,8 @@ h3 {
     padding-left: 30px;
     text-align: justify;
     font-size: 20px;
-    line-height: 2px;
+    padding-top: 10px;
+    line-height: 25px;
     letter-spacing: 5px;
     color: #344453;
 }
@@ -163,6 +171,7 @@ h3 {
     display: flex;
     position: relative;
     list-style-type: none;
+    padding-top: 15px;
 }
 
     .topnav-right a {
@@ -195,6 +204,7 @@ h3 {
     width: 100%;
     height: 800px;
     margin: 0px;
+    padding-top: 200px;
     display: inline-block;
     background-color: #CFDCD2;
     text-align: center;
@@ -206,11 +216,13 @@ h3 {
     background-color: lightpink;
     display:inline-block;
     width: 100%;
+    height: 1000px;
+    padding-top: 200px;
 }
 
 .camillephoto {
     margin:60px 40px 60px 160px;
-    max-height: 400px;
+    max-height: 600px;
     width: auto;
     float: left;
 }
@@ -281,12 +293,11 @@ h3 {
     transition: 0.3s;
 }
 
-
     .yogaclass a:hover {
         background-color: #CFDCD2;
         border: 3px solid #CFDCD2;
         color: black;
-    }
+    }  
 
 .barreclass {
     display: inline-block;
@@ -324,40 +335,64 @@ h3 {
 
     /* --------------------------CONTACT----------------------------------------------*/
 
-    .hitmeup {
-        margin: auto;
-        width: 100%;
-        position: relative;
-        display: inline-block;
-        padding-top: 20px;
-        background-color: #526E74;
-        height: 305px;
-        text-align: center;
-        font-family: gemunuLibre, sans-serif;
-        color: #F1F1F1;
-        font-size: 56px;
-    }
-    
+.hitmeup {
+    margin: auto;
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    padding-top: 90px;
+    background-color: #526E74;
+    height: 305px;
+    text-align: center;
+    font-family: gemunuLibre, sans-serif;
+    color: #F1F1F1;
+    font-size: 56px;
+    } 
+
     .top-boxes{
         display: flex;
     }
     
     iframe {
         width: 33%;
+        height: 100%;
         aspect-ratio: 1/1;
     }
+
+
     .Contact-info {
-        background-color: #F1F1F1;
         width: 34%;
+        margin: auto;
+        height: 100%;
         aspect-ratio: 1/1;
-        text-align: center;
-        line-height: 200px;
-    
+        line-height: 10px;
+        padding-top: 170px;
     }
-    
+
+.email {
+    display: flex;
+    align-items: center;
+    padding-left: 100px
+}
+
+.phone-number {
+    display: flex;
+    align-items: center;
+    padding-left: 100px
+}
+
+    .contact-text {
+
+        font-size: 30px;
+        color: rgb(0, 0, 0);
+        line-height: 20px;
+        padding: 30px 30px;
+
+    }
     .Socials {
         background-color: #EFADAD;
         width: 33%;
+        height: 100%;
         aspect-ratio: 1/1;
     }
     

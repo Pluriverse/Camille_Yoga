@@ -21,6 +21,21 @@ p {
     font-weight: 400px;
 }
 
+a {
+    text-decoration: none;
+    color: rgb(32, 32, 32);
+    transition: 0.3s;
+}
+
+a:hover {
+    color: #526E74;
+}
+
+h1 {
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-weight: 500;
+    font-size: 70px;
+}
 
 h2 {
     font-family: "Anton", sans-serif;
@@ -28,7 +43,7 @@ h2 {
     font-weight: 400px;
     text-align: center;
     padding:70px 0px 20px;
-    color:black;
+    color:rgb(36, 36, 36);
 
 }
 
@@ -40,17 +55,19 @@ h3 {
 
 h4 {
     font-size: 30px;
-    color: rgb(0, 0, 0);
+    color: rgb(36, 36, 36);
     font-family: 'GemunuLibreExtraBold', sans-serif;
 }
 
 .button1 {
+    cursor: pointer;
     font-family: 'Poppins', sans-serif;
+    font-weight: 100;
     font-size: 13px;
     text-decoration: none;
     color: white;
     width: 150px;
-    border: 3px solid #506B71;
+    border: 2px solid #506B71;
     border-radius: 20px;
     padding: 7px 10px;
     background-color: #506B71;
@@ -59,12 +76,10 @@ h4 {
 }
 
 
-    .button1:hover {
-        background-color: #CFDCD2;
-        color: black;
-        
-
-    }
+.button1:hover {
+    background-color: #CFDCD2;
+    color: rgb(36, 36, 36);
+}
 
 
 
@@ -130,7 +145,7 @@ h4 {
         .topnavhome-right a:hover {
             color: #cc6600;
             border-bottom: 2px solid #cc6600;
-        }
+}
 
 .activenav {
     color: #cc6600 !important;
@@ -189,7 +204,8 @@ h4 {
         .topnav-right a:hover {
             color: #cc6600;
             border-bottom: 2px solid #cc6600;
-        }
+}
+
 
 .activenav {
     color: #cc6600 !important;
@@ -293,11 +309,11 @@ h4 {
     transition: 0.3s;
 }
 
-    .yogaclass a:hover {
+.yogaclass a:hover {
         background-color: #CFDCD2;
         border: 3px solid #CFDCD2;
         color: black;
-    }  
+}  
 
 .barreclass {
     display: inline-block;
@@ -323,11 +339,11 @@ h4 {
 }
 
 
-    .barreclass a:hover {
-        background-color: #CFDCD2;
-        border: 3px solid #CFDCD2;
-        color: black;
-    }
+.barreclass a:hover {
+    background-color: #CFDCD2;
+    border: 3px solid #CFDCD2;
+    color: black;
+}
 
 
 
@@ -347,59 +363,107 @@ h4 {
     font-family: gemunuLibre, sans-serif;
     color: #F1F1F1;
     font-size: 56px;
-    } 
+} 
 
-    .top-boxes{
-        display: flex;
-    }
-    
-    iframe {
-        width: 33%;
-        height: 100%;
-        aspect-ratio: 1/1;
-    }
-
-
-    .Contact-info {
-        width: 34%;
-        margin: auto;
-        height: 100%;
-        aspect-ratio: 1/1;
-        line-height: 10px;
-        padding-top: 170px;
-    }
-
-.email {
+.top-boxes{
     display: flex;
-    align-items: center;
-    padding-left: 100px
+}
+    
+iframe {
+    width: 33.3%;
+    height: 100%;
+    aspect-ratio: 1/1;
 }
 
-.phone-number {
+
+.Contact-info {
+    width: 33.3%;
     display: flex;
-    align-items: center;
-    padding-left: 100px
+    height: 100%;
+    aspect-ratio: 1/1;
+    line-height: 10px;
 }
 
-    .contact-text {
+.contact-container {
+    justify-content: center;
+    height: 150px;
+    margin: auto;
+}
 
-        font-size: 30px;
-        color: rgb(0, 0, 0);
-        line-height: 20px;
-        padding: 30px 30px;
+.email, .phone-number {
+    display: flex;
+    align-items: center;
+}
 
-    }
-    .Socials {
-        background-color: #EFADAD;
-        width: 33%;
-        height: 100%;
-        aspect-ratio: 1/1;
-    }
+
+.contact-text {
+
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+    line-height: 70px;
+    padding: 0 20px;
+}
+
+.Socials {
+    background-color: #EFADAD;
+    width: 33.3%;
+    height: 100%;
+    aspect-ratio: 1/1;
+    align-items: center;
+    padding-top: 150px;
+}
     
-    .membership {
-        display: flex;
-    }
+.social-link {
+    display: flex;
+    width: 200px;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+
+.social-link h4 {
+    font-size: 45px;
+    color: rgb(36, 36, 36);
+    line-height: 40px;
+    padding: 30px 30px;
+}
+
+.membership {
+    display: flex;
+}
 
 
+.barreimg {
+    width: 33.3%;
+    height: auto;
+}
+
+
+.membership-type {
+    background-color: #CFDCD2;
+    width: 66.7%;
+    display: flex;
+}
+
+.text-box {
+    text-align: justify;
+    margin: auto;
+    width: 740px;
+    height: 350px;
+}
+
+
+.membership-type .button1 {
+    position: relative;
+    width: 200px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.contact-form {
+    width: 100%;
+    height: 600px;
+    background-color: #506B71;
+}
 
     /* --------------------------ABOUT----------------------------------------------*/

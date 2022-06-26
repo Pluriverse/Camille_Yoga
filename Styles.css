@@ -401,7 +401,7 @@ iframe {
     font-size: 35px;
     color: rgb(0, 0, 0);
     line-height: 70px;
-    padding: 0 20px;
+    padding: 0 0 0 20px;
 }
 
 .Socials {
@@ -409,8 +409,12 @@ iframe {
     width: 33.3%;
     height: 100%;
     aspect-ratio: 1/1;
-    align-items: center;
-    padding-top: 150px;
+    display:flex;
+}
+
+.social-box {
+    justify-content: center;
+    margin: auto;
 }
     
 .social-link {
@@ -465,5 +469,22 @@ iframe {
     height: 600px;
     background-color: #506B71;
 }
+
+.input-container {
+    width: 100%;
+    Height: 600px;
+    display: flex;
+    align-items: center;
+}
+
+.input-boxes {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    background-color: pink;
+}
+
+
+
 
     /* --------------------------ABOUT----------------------------------------------*/

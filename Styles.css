@@ -90,7 +90,7 @@ h4 {
 .bg-img {
     background-image: url("images/cam1.jpeg");
     box-shadow: inset 0 0 99999px rgba(161, 192, 129, 0.5);
-    height: 1050px;
+    height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -100,8 +100,10 @@ h4 {
 .nav-wrapperhome {
     position: absolute;
     display: flex;
-    justify-content: space-evenly;
-    margin: 10px 0px 0px 30px;
+    justify-content: space-between;
+    margin: 10px 0px 0px 0px;
+    padding-left: 30px;
+    width: 100%;
 }
 
 
@@ -129,6 +131,8 @@ h4 {
 .topnavhome-right {
     position: relative;
     text-align: right;
+    width: 100%;
+
 }
 
 
@@ -137,7 +141,7 @@ h4 {
         font-family: 'Poppins', sans-serif;
         font-size: 30px;
         text-decoration: none;
-        color: navajowhite;
+        color: #344453;
         border-bottom: transparent;
         transition: 0.5s;
     }
@@ -497,16 +501,60 @@ iframe {
     Height: 600px;
     display: flex;
     align-items: center;
+    justify-content: center;
+    position: relative;
 }
 
 .input-boxes {
     display: flex;
     width: 50%;
     height: 100%;
+    justify-content: center;
+    align-items: center;
     background-color: pink;
 }
 
 
+.messageme {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+.messageme h1 {
+    width: 60%;
+    display: flex;
+    font-size: 60px;
+    align-items: center;
+    text-align: center;
+    text-transform:uppercase;
+}
+
+input {
+    width: 250px;
+    height: 40px;
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    background-color: pink;
+    outline: none;
+    border-bottom: 2px solid black;
+    margin-bottom: 20px;
+}
 
 
     /* --------------------------ABOUT----------------------------------------------*/
+
+
+    /* --------------------------FOOTER----------------------------------------------*/
+
+    .footercontainer {
+        background-color:#506B71;
+        width: 100%;
+        height: 250px;
+    }
+
+    .footerbox {
+        
+    }

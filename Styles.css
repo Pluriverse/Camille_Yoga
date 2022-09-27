@@ -549,12 +549,47 @@ input {
 
     /* --------------------------FOOTER----------------------------------------------*/
 
-    .footercontainer {
-        background-color:#506B71;
-        width: 100%;
-        height: 250px;
-    }
+.footercontainer {
+    background-color:#506B71;
+    width: 100%;
+    height: 250px;
+    align-items: center;
+    display: flex; 
+    justify-content: space-evenly;
+}
 
-    .footerbox {
-        
-    }
+.footer-left {
+    margin-left: 30px;
+}
+
+.footer-right {
+    height: 200px;
+}
+
+.footer-left .camheader  {
+    width: 100%;
+    letter-spacing: 5px;
+    font-size: 40px;
+}
+
+.footer-left .yogaheader {
+    font-size: 40px;
+    letter-spacing: 10.5px;
+}
+
+.footer-center {
+}
+
+.footer-center h2 {
+    font-size: 30px;
+    padding: 10px 50px;
+    text-align: left;
+    color: rgb(245, 244, 244);
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+
+}
+
+.footer-right {
+    display: inline-block;
+    padding: 30px;
+}

@@ -19,6 +19,7 @@ p {
     font-family: 'Zen Kaku Gothic New', sans-serif;
     font-size: 20px;
     font-weight: 400px;
+    color: #526E74;
 }
 
 a {
@@ -219,7 +220,7 @@ header {
 }
 
 
-/* --------------------------INDEX----------------------------------------------*/
+/* --------------------------INDEX BODY----------------------------------------------*/
 
 .intro {
     width: 100%;
@@ -268,12 +269,17 @@ header {
 .quotation1 { 
     text-align: left;
     font-size: 80px;
+    font-family: 'Poppins', sans-serif;
+    color: #526E74;
 }
 
 .quotation2 { 
     text-align: right;
     font-size: 80px;
+    font-family: 'Poppins', sans-serif;
+    color: #526E74;
 }
+
 
 .kidsyoga {
     height: 900px;
@@ -372,19 +378,20 @@ header {
     font-weight: 100;
     font-size: 20px;
     text-decoration: none;
-    color: white;
+    color: black;
     width: 200px;
+    border: 1px black solid;
     border-radius: 40px;
     padding: 7px 30px;
-    background-color: rgb(243, 198, 204);
+    background-color: white;
     box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     transition: 0.3s;
 }
 
     
 .button3:hover {
-        background-color: white;
-        color: rgb(36, 36, 36);
+        background-color: black;
+        color: white;
 }
 
 /* --------------------------CLASSES----------------------------------------------*/
@@ -658,7 +665,56 @@ input {
 
 
     /* --------------------------ABOUT----------------------------------------------*/
+.aboutme {
+    margin: auto;
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    background-color: #526E74;
+    height: 305px;
+    text-align: center;
+    font-family: gemunuLibre, sans-serif;
+    color: #F1F1F1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 56px;
+} 
 
+.foley {
+    position: absolute;
+    left: 500px;
+    top: 500px;
+}
+
+.camilletext {
+    position: absolute;
+    left: 10px;
+    top: 500px;
+}
+
+.aboutbio {
+    width: 600px;
+    margin: auto;
+
+}
+
+.aboutbio p {
+    font-size: 30px;
+}
+
+.ABOUT {
+    display: flex;
+    width: auto;
+    height: 1400px;
+    align-items: center;
+}
+
+.camillephoto2 {
+    display: flex;
+    width: 50vw;
+    height: auto;
+}
 
     /* --------------------------FOOTER----------------------------------------------*/
 

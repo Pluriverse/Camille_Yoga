@@ -395,18 +395,38 @@ header {
 }
 
 /* --------------------------CLASSES----------------------------------------------*/
-
-
-.bodee {
-    padding: 200px 100px;
-    justify-content: space-between;
-    background-color: lightpink;
+.banner {
+    margin: auto;
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    background-color: #526E74;
+    height: 305px;
+    text-align: center;
+    font-family: gemunuLibre, sans-serif;
+    color: #F1F1F1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 56px;
+} 
+.classcont {
+    background-image: linear-gradient(to bottom right,rgb(243, 198, 204), rgb(198, 243, 223) );
 }
 
-    .bodee p {
-        font-family: 'Poppins', sans-serif;
-        padding: 0px 80px;
-    }
+.bodee {
+    padding: 100px 100px 200px 100px;
+    justify-content: space-between;
+    width: 1300px;
+    text-align: justify;
+    margin: auto;
+}
+
+.bodee p {
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 50px;
+    color: black;
+}
 
 .classheader h1{
         position: relative;
@@ -419,13 +439,13 @@ header {
 .classes {
     position: relative;
     display: flex;
-    justify-content: space-evenly;
-    background-color: lightpink;
+    justify-content: space-between;
 }
 
 .yogaclass {
     display: inline-block;
     position: relative;
+    
 }
 
 .yogaclassjpg {
@@ -459,6 +479,7 @@ header {
 .barreclass {
     display: inline-block;
     position: relative;
+
 }
 
 .barreclass a {
@@ -491,22 +512,6 @@ header {
 
 
     /* --------------------------CONTACT----------------------------------------------*/
-
-.hitmeup {
-    margin: auto;
-    width: 100%;
-    position: relative;
-    display: inline-block;
-    background-color: #526E74;
-    height: 305px;
-    text-align: center;
-    font-family: gemunuLibre, sans-serif;
-    color: #F1F1F1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 56px;
-} 
 
 .top-boxes{
     display: flex;
@@ -665,33 +670,26 @@ input {
 
 
     /* --------------------------ABOUT----------------------------------------------*/
-.aboutme {
-    margin: auto;
-    width: 100%;
-    position: relative;
-    display: inline-block;
-    background-color: #526E74;
-    height: 305px;
-    text-align: center;
-    font-family: gemunuLibre, sans-serif;
-    color: #F1F1F1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 56px;
-} 
 
-.foley {
+    .ABOUT {
+        display: flex;
+        width: auto;
+        height: 1800px;
+        align-items: center;
+    }
+
+.camillevert {
     position: absolute;
-    left: 500px;
-    top: 500px;
+    left: 100px;
+    top: 665px;
 }
 
-.camilletext {
+.foleyvert {
     position: absolute;
-    left: 10px;
-    top: 500px;
+    left: 600px;
+    top: 665px;
 }
+
 
 .aboutbio {
     width: 600px;
@@ -703,12 +701,6 @@ input {
     font-size: 30px;
 }
 
-.ABOUT {
-    display: flex;
-    width: auto;
-    height: 1400px;
-    align-items: center;
-}
 
 .camillephoto2 {
     display: flex;
@@ -716,6 +708,10 @@ input {
     height: auto;
 }
 
+.aboutsocials {
+    display: flex;
+    justify-content: space-between;
+}
     /* --------------------------FOOTER----------------------------------------------*/
 
 .footercontainer {
@@ -761,4 +757,10 @@ input {
 .footer-right {
     display: inline-block;
     padding: 30px;
+}
+
+.fa-instagram {
+    font-size: 70px; 
+    color: rgb(245, 244, 244);
+
 }
